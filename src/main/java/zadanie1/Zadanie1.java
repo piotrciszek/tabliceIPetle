@@ -16,7 +16,6 @@ public class Zadanie1 {
                 System.out.println("Podaj " + ((int) i +1)  + " liczbę, liczby nie mogą się powtarzać.");
                 pointedNumber = scanner.nextInt();
             } while (isUnique(pointedNumber,userNumbers));
-
             userNumbers[i] = pointedNumber;
         }
 
@@ -33,16 +32,21 @@ public class Zadanie1 {
         }
 
         System.out.println("Wybrane liczby to: ");
-        for (int i=0; i<userNumbers.length; i++) {
-            System.out.print(userNumbers[i]);
+        for (int i : userNumbers) {
+            System.out.print(i);
             System.out.print(" ");
         }
+
+
         System.out.println();
         System.out.println("Wylosowane liczby to: ");
-        for (int j=0; j<randomNumbers.length; j++) {
-            System.out.print(randomNumbers[j]);
+        for (int i : randomNumbers) {
+            System.out.print(i);
             System.out.print(" ");
         }
+
+        System.out.println();
+        System.out.println("Trafiłeś " + compareTable(userNumbers, randomNumbers));
 
     }
     private static boolean isUnique(int number, int[] table) {
@@ -51,5 +55,16 @@ public class Zadanie1 {
                 return true;
             }
         } return false;
+    }
+
+    private static int compareTable(int[] pointed, int[] generated) {
+        int ile = 0;
+        for (int i = 0; i < pointed.length; i++) {
+            for (int j = 0; j < generated.length; j++) {
+                if (pointed[i] == generated[j]) {
+                    ile++;
+                }
+            }
+        } return ile;
     }
 }
