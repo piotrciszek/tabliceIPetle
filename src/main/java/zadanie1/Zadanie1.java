@@ -12,16 +12,23 @@ public class Zadanie1 {
         int pointedNumber;
 
         for (int i=0; i<6; i++) {
-            System.out.print("Podaj liczbe, liczby nie mogą się powtarzać");
-            pointedNumber = scanner.nextInt();
+            do {
+                System.out.println("Podaj " + ((int) i +1)  + " liczbę, liczby nie mogą się powtarzać.");
+                pointedNumber = scanner.nextInt();
+            } while (isUnique(pointedNumber,userNumbers));
 
             userNumbers[i] = pointedNumber;
         }
+
+
         Random random = new Random();
         int generatedNumber;
 
         for (int j=0; j<6; j++) {
-            generatedNumber = random.nextInt(49) + 1;
+            do {
+                generatedNumber = random.nextInt(49) + 1;
+            } while (isUnique(generatedNumber, randomNumbers));
+
             randomNumbers[j] = generatedNumber;
         }
 
@@ -38,5 +45,11 @@ public class Zadanie1 {
         }
 
     }
-
+    private static boolean isUnique(int number, int[] table) {
+        for (int i = 0; i<table.length; i++) {
+            if (table[i] == number) {
+                return true;
+            }
+        } return false;
+    }
 }
