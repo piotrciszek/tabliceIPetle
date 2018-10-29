@@ -49,14 +49,6 @@ public class Zadanie1 {
         System.out.println("Trafiłeś " + compareTable(userNumbers, randomNumbers));
 
     }
-    private static boolean isUnique(int number, int[] table) {
-        for (int i = 0; i<table.length; i++) {
-            if (table[i] == number) {
-                return true;
-            }
-        } return false;
-    }
-
     private static int compareTable(int[] pointed, int[] generated) {
         int ile = 0;
         for (int i = 0; i < pointed.length; i++) {
@@ -66,5 +58,13 @@ public class Zadanie1 {
                 }
             }
         } return ile;
+    }
+
+    private static boolean isUnique(int number, int[] table) {
+        for (int i = 0; i<table.length; i++) {
+            if (table[i] == number) {
+                return true;
+            }
+        } return false;
     }
 }
