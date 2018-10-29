@@ -29,6 +29,7 @@ public class Zadanie2 {
         System.out.println("Największa liczba to: " + max);
         System.out.println("Najmniejsza liczba to: " + min);
         System.out.println("Suma liczba w tablicy to: " + (int)sum);
+
         System.out.println("Srednia liczb z tablicy to: " + sred);
     }
 }
