@@ -5,7 +5,14 @@ public class Zadanie7 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Podaj ciąg znaków");
-        String znaki = scanner.nextLine();
+        sumaZnakow(scanner.nextLine());
+
+    }
+    private static void sumaZnakow(String znaki) {
+
+
+        /*String znaki = scanner.nextLine();*/
+
         String[] tablica = znaki.split("");
 
         int liczby = 0;
