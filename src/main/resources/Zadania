@@ -87,13 +87,18 @@ z liczb : 1 12 123 1234 …
  ###
 ####
 
-14. Napisz program symulujący pracę dystrybutora paliwa, gdzie użytkownik otrzymuje informację o ilości wlanego
-paliwa oraz o cenie jaką musi zapłacić. Aplikacja pyta użytkownika czy chce kontynuować napełnianie baku
+14. Napisz program symulujący pracę dystrybutora paliwa,
+gdzie użytkownik otrzymuje informację o ilości wlanego
+paliwa oraz o cenie jaką musi zapłacić. Aplikacja pyta
+użytkownika czy chce kontynuować napełnianie baku
 a. ‘t’ oznacza kontynuację
 b. ‘n’ oznacza zakończenie tankowania
-Po zakończeniu procesu tankowania wyświetlone zostaje sprawozdanie zawierające ilość przelanego paliwa oraz
-cenę za paliwo liczoną w złotówkach. Wykorzystaj double do przechowania ceny paliwa. Dodatkowo użyj random,
-aby przy kolejnej iteracji dolać do zbiornika losową ilość paliwa, która wygeneruje odpowiedni dodatek do rachunku.
+Po zakończeniu procesu tankowania wyświetlone zostaje
+sprawozdanie zawierające ilość przelanego paliwa oraz
+cenę za paliwo liczoną w złotówkach. Wykorzystaj double
+do przechowania ceny paliwa. Dodatkowo użyj random,
+aby przy kolejnej iteracji dolać do zbiornika losową ilość
+paliwa, która wygeneruje odpowiedni dodatek do rachunku.
 
 15. Napisz program, który dla zadanych dwóch liczb zwraca największy wspólny dzielnik np.
 a. 12 i 48 -> 12
