@@ -1,5 +1,6 @@
 package kalkulator;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -20,10 +21,14 @@ public class Main {
             wynik = pierwszaLiczba - drugaLiczba;
         } else if (dzialania.equals("*")) {
             wynik = pierwszaLiczba * drugaLiczba;
-        } else {
-            wynik = pierwszaLiczba / drugaLiczba;
+        } else if (dzialania.equals("/")) {
+            if (drugaLiczba == 0) {
+                System.out.println("Nie mozna dzielic przez 0");
+            } else {
+                wynik = pierwszaLiczba / drugaLiczba;
+            }
         }
-        System.out.println("Wynik = " + wynik);
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        System.out.println("Wynik = " + decimalFormat.format(wynik));
     }
-
 }
