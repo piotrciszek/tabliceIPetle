@@ -57,7 +57,9 @@ zbudowanych z liczb ‘1’ , ‘2’, ‘3’, ‘4’ (żadna z liczb nie moż
 10. Utwórz program, który przyjmuje tablicę od użytkownika w postaci liczb całkowitych odseparowanych przecinkiem,
 a następnie na tej tablicy usuwa wszystkie zduplikowane elementy i wyświetla tablicę bez duplikacji.
 
-11. Utwórz program, który przyjmuje dwie tablice a zwraca trzecią zawierającą wspólne elementy obu tablic.
+11. Utwórz program, który przyjmuje dwie
+tablice a zwraca trzecią zawierającą wspólne
+ elementy obu tablic.
 
 12. Napisz program, który przyjmuje od użytkownika liczbę w zakresie od 1 do 20. A następnie rysuje trójkąt
 z liczb : 1 12 123 1234 …
