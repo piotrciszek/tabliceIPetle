@@ -1,0 +1,24 @@
+Metody statyczne - Kalkulator
+1.Utwórz program ‚Kalkulator’
+1.Nadpisz punkt wejścia, tak aby
+wyświetlał następującą instrukcję
+po uruchomieniu:„Podaj rodzaj działania :
+ *,+,-,/”
+ „Podaj pierwszą liczbę”
+ „Podaj druga liczbę”
+ „Otrzymany wynik {działanie} wynosi: {wynik}”
+2.Użyj switchado wybrania rodzaju metody
+3.Użyj switchado wydrukowania końcowego
+wyniku (np. ‚+’ ’dodawania’) np. po wpisaniu
+przez użytkownika ‚+’, ‚2’, ‚3’ wyświetlony
+zostanie tekst:
+Wynik dodawania liczb 2 i 3 wynosi: 5
+
+LosowaLiczba
+Utworzenie klasy drukującej losową liczbę w zadanym przez użytkownika zakresie
+a. Użytkownik deklaruje maksymalną liczbę (losowanie odbywa się od liczby zera do liczby maksymalnej zdefiniowanej przez użytkownika) np.
+i. Użytkownik wpisuje ‘10’ -> liczba losowa przyjmuje wartość od 0 do 10
+b. Użytkownik deklaruje minimalną liczbę oraz maksymalną :
+i. Dla liczby ‘1’ i ‘100’ -> liczba losowa przyjmuje wartość od 1 do 100
+c. Użytkownik może podawać liczby ujemne:
+i. Dla liczb: ‘-100’ i ‘5’ -> liczba losowa przyjmuje wartość od -100 do 5
