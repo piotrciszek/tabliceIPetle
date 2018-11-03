@@ -61,7 +61,8 @@ a następnie na tej tablicy usuwa wszystkie zduplikowane elementy i wyświetla t
 tablice a zwraca trzecią zawierającą wspólne
  elementy obu tablic.
 
-12. Napisz program, który przyjmuje od użytkownika liczbę w zakresie od 1 do 20. A następnie rysuje trójkąt
+12. Napisz program, który przyjmuje od użytkownika
+liczbę w zakresie od 1 do 20. A następnie rysuje trójkąt
 z liczb : 1 12 123 1234 …
 
 13. Napisz program który rysuje trójkąty jak na załączonym obrazku:
