@@ -66,7 +66,25 @@ liczbę w zakresie od 1 do 20. A następnie rysuje trójkąt
 z liczb : 1 12 123 1234 …
 
 13. Napisz program który rysuje trójkąty jak na załączonym obrazku:
-
+#
+##
+###
+####
+----
+####
+###
+##
+#
+----
+####
+ ###
+  ##
+   #
+----
+   #
+  ##
+ ###
+####
 
 14. Napisz program symulujący pracę dystrybutora paliwa, gdzie użytkownik otrzymuje informację o ilości wlanego
 paliwa oraz o cenie jaką musi zapłacić. Aplikacja pyta użytkownika czy chce kontynuować napełnianie baku
