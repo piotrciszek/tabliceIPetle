@@ -16,7 +16,8 @@ c. Sumę wszystkich wartości
 d. *Wartość średnią
 e. *Medianę
 
-3. Napisz program, który zwraca w postaci tablicy zbiór wszystkich liczb mniejszych od
+3. Napisz program, który zwraca w postaci tablicy
+ zbiór wszystkich liczb mniejszych od
 zadanej przez użytkownika liczby oraz:
 a. Podzielnych przez 2
 b. Podzielnych przez 3
