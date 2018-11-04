@@ -37,3 +37,15 @@ c. Średnia wartość tablicy
 d. Ilość Elementów
 2. Dla w/w przykładu oczekujemy poniższego tekstu:
 Min wartość: -3 Max wartość: 66 Średnia wartość: 19.4 Ilość elementów: 10
+
+Wisielec
+Napisz program ‘wisielec’ – użytkownik ma 5 żyć,
+użytkownik może podać jedynie 1 literę –
+gdy poda więcej przegrywa grę. Jeśli poda literę
+spoza hasła, traci jedno życie, gdy zostanie
+bez żyć <0 przegrywa grę.
+a. Użytkownik sam wpisuje hasło dla przeciwnika
+b. * Hasło jest losowane z słownika czyli tablicy
+haseł
+c. ** Po zakończeniu gry – zapytanie do użytkownika
+czy chce kontynuować dalej grę (t/n)
