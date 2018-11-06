@@ -67,3 +67,12 @@ zadane słowa
 a. Metoda void
 b. 2 argumentowa – Słowo, ilośc powtórzeń
 c. Do…while (wprowadzone słowo !equals(„”);
+
+Statystyki Slow
+Statystyki użytych słów – program pobiera
+od użytkownika tekst. Następnie oblicza
+statystyki:
+a. Ilość użytych słów
+b. Średnia długość słowa
+c. **Najczęstsze słowo
+d. **Najrzadsze słowo
