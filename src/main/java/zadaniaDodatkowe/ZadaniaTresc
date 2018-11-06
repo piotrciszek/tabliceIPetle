@@ -49,3 +49,13 @@ b. * Hasło jest losowane z słownika czyli tablicy
 haseł
 c. ** Po zakończeniu gry – zapytanie do użytkownika
 czy chce kontynuować dalej grę (t/n)
+
+Szyfrolamacz
+Szyfrołamacz – użytkownik musi odgadnąć 4 cyfrowe hasło,
+ma 5 żyć, po podaniu hasła program informuje go czy
+podany kod był większy lub mniejszy od hasła. Po utracie
+wszystkich żyć program kończy działanie
+a. Po utracie wszystkich żyć program pyta użytkownika
+czy chce spróbować ponownie
+b. Użytkownik może raz w ciągu gry poprosić o
+podpowiedź która odsłoni jedno z 4 cyfr tajnego hasła
