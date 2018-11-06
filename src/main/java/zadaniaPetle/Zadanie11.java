@@ -1,3 +1,5 @@
+package zadaniaPetle;
+
 public class Zadanie11 {
     public static void main(String[] args) {
         int[] tablica1 = new int[]{5,4,6,7,2,1,23,11,13};
