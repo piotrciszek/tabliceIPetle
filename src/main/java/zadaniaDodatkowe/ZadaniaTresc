@@ -59,3 +59,11 @@ a. Po utracie wszystkich żyć program pyta użytkownika
 czy chce spróbować ponownie
 b. Użytkownik może raz w ciągu gry poprosić o
 podpowiedź która odsłoni jedno z 4 cyfr tajnego hasła
+
+Spammer
+Spammer – program pyta użytkownika o słowo
+oraz ilość powtórzeń wg której ma wyświetlić
+zadane słowa
+a. Metoda void
+b. 2 argumentowa – Słowo, ilośc powtórzeń
+c. Do…while (wprowadzone słowo !equals(„”);
